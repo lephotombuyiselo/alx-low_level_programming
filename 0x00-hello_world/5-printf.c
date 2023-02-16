@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - A program that print a text line
-n
  * Return: 0 (Success)
  */
 
