@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
  * main - A program print various sizes of variable type
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
 int main(void)
