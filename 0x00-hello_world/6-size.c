@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - A program display variable type size
- * description - five type of variabe be initiated and calculated their size
- * Return 0 (Success)
+ * Description: 'five type of variabe be initiated and calculated their size'
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
