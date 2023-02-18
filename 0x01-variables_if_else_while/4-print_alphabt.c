@@ -5,16 +5,15 @@
  */
 int main(void)
 {
-	char low, e, q;
+	char p;
 
-	e = 'e';
-	q = 'q';
-
-	for (low = 'a', low <= 'z'; low++)
+	p = 'a';
+	while (p <= 'z')
 	{
-	if (low != e & = low != q)
-	putchar(low);
+		if ((p != 'q' && p != 'e') && p <= 'z')
+			putchar(p);
+		p++;
 	}
-	puchar('\n');
+	putchar('\n');
 	return (0);
 }
