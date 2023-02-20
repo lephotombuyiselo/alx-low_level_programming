@@ -1,15 +1,17 @@
 #include <stdio.h>
 /**
- * main - print number from 0 to 9.
+ * main - print all single numbers using putchar.
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++)
+	i = 0;
+	while (i < 10)
 	{
-		putchar(i);
+		putchar(i + '0');
+		i++;
 	}
 	putchar('\n');
 	return (0);
